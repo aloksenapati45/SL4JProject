@@ -19,6 +19,7 @@ public class SLF4J_Programming {
 		Statement stmt = null;
 		ResultSet rs = null;
 		try {
+			logger.debug("try block executon started");
 			// Load the sql driver
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			logger.debug("JDBC Driver Loading Succed");
